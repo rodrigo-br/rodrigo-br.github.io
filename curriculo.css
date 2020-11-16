@@ -7,7 +7,7 @@ body{
     box-shadow:2px 2px 0 0 #C3c3c3;
     max-width: 100%;
     background: linear-gradient(to bottom left,#fff6f6,#fff9f9,#fff6f6);
-    font-weight: 500;
+    font-weight: 600;
 }
 
 img{
@@ -15,23 +15,24 @@ img{
     width: 150px;
     max-width: 40%;
     border-radius: 4px;
-    box-shadow: 1px 1px 1px 0 #545454;
+    box-shadow: 2px 2px 1px 0 #C3c3c3;
 }
 
 
 button{
     background: transparent;
     border:none;
-    color: #1e00a5;
+    color: #46368F;
     margin:0;
     padding:0;
     text-align: left;
-    font-size: 15px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 h1, h2{
     text-align: center;
-    text-shadow: 1px 1px 3px pink, 0px 1px 2px #545454;
+    text-shadow: 1px 1px 2px pink, 0px 1px 1px #545454;
 }
 
 h2{
@@ -40,11 +41,11 @@ h2{
 
 a:link{
     text-decoration: none;
-    color: #1e00a5;
+    color: #46368F;
 }
 a:visited{
     text-decoration: none;
-    color: #1e00a5;
+    color: #46368F;
 }
 a:hover{
     text-decoration: none;
