@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <link rel="stylesheet" href="curriculo.css">
+    <title>Currículo Rodrigo Alves Brito</title>
+</head>
+<body>
+
+    <h1>Curriculum Vitae</h1>  
+        <p><img src="eunoquadro.jpeg" alt="foto minha">
+        Rodrigo Alves Brito<br/>
+        Avenida Euclides 350, casa 3<br/>
+        CEP 04326-080, Vila Fachini, SP, São Paulo<br/>
+        <a href="mailto: rodrigoab123@gmail.com?" target="_blank">rodrigoab123@gmail.com</a><br/>
+        +55 (21) 999 560 969 <a class="fab fa-whatsapp" href="https://bit.ly/3lUGEe7" target="_blank" style="color:green"></a><br/>
+        <a href="https://github.com/rodrigo-br" target="_blank">GitHub</a>  
+    </p>
+    <h2>Educação</h2>
+        <p>
+            <ul>
+                <li>2020 - Início tecnólogo em Análise e Desenvolvimento de Sistemas - Estácio de Sá</li>
+                <li>
+                    <button type="button" onclick="udemy()">2020 - Cursos complementares na área de TI - Udemy</button>
+                </li>
+
+                <span id="cursoscomplementares"></span>
+                
+                <script>
+                function udemy() { 
+                  document.getElementById("cursoscomplementares").innerHTML = 
+                  
+                '<ul><li>Git e Github Essencial para o Desenvolvedor</li></ul><ul><li>Linux Completo para Usuário Comum ou Desenvolvedor</li></ul><ul><li>Redes de computadores para iniciantes</li></ul><ul><li>Arquitetura de Redes</li></ul><ul><li>Programação para Leigos</li></ul><ul><li>Algorismos e Lógica de programação</li></ul>';}
+                </script>
+
+
+
+                   
+                <li>2018 - Curso de opções binárias - Anthony Stone</li>
+                <li>
+                    <button type="button" onclick="piloto()">2015 - Curso de piloto privado</button>
+                </li>
+                <span id="cursopiloto"></span> 
+                <script>
+                function piloto() {
+                    document.getElementById("cursopiloto").innerHTML='<ul><li>STS Escola de aviação civil</li></ul><ul><li>Aeroclube Eldorado do Sul</li></ul>';
+                }
+            </script>
+            
+                
+                <li>2012 - Curso de microempreendedor individual - SEBRAE</li>
+            </ul>
+        </p>
+
+    <h2>Experiências profissionais</h2>
+        <p>
+            <ul>
+                <li>2019 <em>(Atual)</em> - Analista de Relacionamentos Bilíngue - Level UP! Interactive LTDA</li>
+                <li>2019 - Profissional PJ - GARENA</li>
+                <li><button type="button" onclick="mei()">2015 - Microempreendedor individual - Autônomo</button></li>
+                <span id="piloto"></span>
+                <script>
+                    function mei(){
+                        document.getElementById("piloto").innerHTML='<ul><li>Hospedagem de cães</li></ul><ul><li>Adestrador de cães</li></ul><ul><li><em>(Atual)</em> - Dono de república estudantil</li></ul>'
+                    }
+                    </script>
+                <li>2014 - Atendente de telemarketing - CTIS Tecnologia S.A</li>
+                <li>2013 - Suporte técnico - Contax S.A</li>
+            </ul>
+        </p>
+
+    <h2>
+        Idiomas
+    </h2>
+        <ul>
+            <li>Português nativo</li>
+            <li>Inglês intermediário (operacional)</li>
+        </ul>
+
+    <h2>
+        Qualidades
+    </h2>
+        <p style="text-align:center">
+            StudyHolic. Amo estudar e aprender. Pró-ativo. Gosto de participar, me envolver, acrescentar, absorver, inspirar, deixar uma marca.
+        </p>
+
+
+</body>
+</html>
