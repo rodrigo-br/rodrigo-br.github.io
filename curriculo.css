@@ -8,6 +8,9 @@ body{
     max-width: 100%;
     background: linear-gradient(to bottom left,#ffEDED,#ffffff,#ffEDED);
     font-weight: 600;
+    background: linear-gradient(to bottom left,#fff6f6,#fff9f9,#fff6f6);
+    font-weight: 500;
+    font-weight;
 }
 
 img{
@@ -15,24 +18,23 @@ img{
     width: 150px;
     max-width: 40%;
     border-radius: 4px;
-    box-shadow: 2px 2px 1px 0 #C3c3c3;
+    box-shadow: 1px 1px 1px 0 #545454;
 }
 
 
 button{
     background: transparent;
     border:none;
-    color: #46368F;
+    color: #1e00a5;
     margin:0;
     padding:0;
     text-align: left;
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 15px;
 }
 
 h1, h2{
     text-align: center;
-    text-shadow: 1px 1px 2px pink, 0px 1px 1px #545454;
+    text-shadow: 1px 1px 3px pink, 0px 1px 2px #545454;
 }
 
 h2{
@@ -41,11 +43,11 @@ h2{
 
 a:link{
     text-decoration: none;
-    color: #46368F;
+    color: #1e00a5;
 }
 a:visited{
     text-decoration: none;
-    color: #46368F;
+    color: #1e00a5;
 }
 a:hover{
     text-decoration: none;
