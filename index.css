@@ -1,10 +1,9 @@
 body{
-    text-align: center;
     margin-top:150px;
     background: #f3e7e7;
 }
 
-a{
+h1, a{
     text-decoration: none;
 }
 
