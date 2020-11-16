@@ -7,12 +7,15 @@ body{
     box-shadow:2px 2px 0 0 #C3c3c3;
     max-width: 100%;
     background: linear-gradient(to bottom left,#fff6f6,#fff9f9,#fff6f6);
+    font-weight: 500;
 }
 
 img{
     float:right;
     width: 150px;
     max-width: 40%;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px 0 #545454;
 }
 
 
@@ -28,6 +31,7 @@ button{
 
 h1, h2{
     text-align: center;
+    text-shadow: 1px 1px 3px pink, 0px 1px 2px #545454;
 }
 
 h2{
