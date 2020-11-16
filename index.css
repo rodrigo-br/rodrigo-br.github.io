@@ -4,7 +4,8 @@ body{
     text-align: center;
 }
 
-a{
+h1, a{
+    text-align:center;
     text-decoration: none;
 }
 
