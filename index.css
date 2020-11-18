@@ -53,6 +53,7 @@ section{
     max-width: 80%;
     transition: 0.5s;
     border-style: solid;
+    border-color: purple;
     border-radius: 3px;
     border-top-left-radius: 12px;
     border-bottom-left-radius: 9px;
