@@ -1,7 +1,26 @@
 header{
-    border-width: 1px 2px 2px 5px;
+    border-width: 1px 2px 2px 15px;
     border-style: solid;
-    height: 50px;
+    height: 70px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.nome{
+   background: red; 
+}
+
+.linguas{
+    background:yellow;
+}
+
+.redes{
+    background:green;
+}
+
+header > div{
+    text-align: center;
 }
 
 body{
