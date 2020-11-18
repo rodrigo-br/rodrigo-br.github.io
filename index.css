@@ -40,6 +40,24 @@ body{
     justify-content: center;
 }
 
+section{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+
+.fotos{
+    margin-top: 100px;
+}
+
+.fotos img{
+    max-width: 80%;
+}
+
+.fotos img:hover{
+    transform: scale(1.5);
+}
+
 a{
     text-decoration: none;
 }
