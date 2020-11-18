@@ -1,0 +1,145 @@
+html, body{
+    background: linear-gradient(#C3C3C3, #545454);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+	background: #c3c3c3;
+	grid-area: header;
+	border-top-left-radius: 20%;
+}
+
+header img{
+	max-width: 100%;
+	max-height: 100%;
+	min-width: 10%;
+	min-height: 10%;
+	border-top-left-radius: 15%;
+}
+
+main{
+	background:#c3c3c3;
+	grid-area: main;
+}
+
+main img{
+	max-width: 100%;
+	max-height: 100%;
+	min-width: 10%;
+	min-height: 100%;
+}
+
+aside{
+	background:#C3c3c3;
+	grid-area: aside;
+	padding-right: 3px;
+	border-top-right-radius: 15px;
+}
+
+aside img{
+	position: relative;
+	float:right;
+	max-height: 43%;
+	border-top-right-radius: 20%;
+}
+
+
+.container{
+	border: 5px solid #696969;
+	border-radius:15px 15px 5px 5px;
+	display: grid;
+	grid-template-columns: 2fr 6fr 2fr;
+	grid-template-rows: 9.7vh;
+	grid-gap: 0px;
+    grid-template-areas: "header main aside";
+}
+
+hr{
+    height: 20px;
+    color:black;
+    background: black;
+    border-radius: 4px;
+    width: 100%;
+}
+
+h1{
+    color:white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    background: linear-gradient(#C3c3c3, #545454,#545454, #c3c3c3);
+    text-size-adjust: auto;
+    text-align:center;
+}
+
+.texto p{
+    text-shadow: #545454 0.15mm 0.15mm 0.1mm;
+    font-size: 18px;
+}
+figure img{
+    float:right;
+    display:flex;
+    padding-left: 50%;
+    padding-bottom: 10%;
+    
+}
+
+.texto{
+    margin: 0 5px 80px 5px;
+}
+
+.regiao p{
+    font-size:18px;
+    float:right;
+    margin: 0 5px 0 5px;
+    padding-left: 40%;
+    text-shadow: black 0.05mm 0.05mm 0.1mm;
+}
+
+.regiao a{
+    text-decoration:none;
+    font-weight: bold;
+}
+
+div.box{
+    display:inline-block;
+}
+
+a span{
+    display:none;
+}
+
+a:hover span{
+    display: block;
+    position: absolute;
+    left:30%;
+    top: auto;
+    border: 1px #C3C3C3 solid;
+    z-index: 10;
+}
+button{
+    background-color:transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow:hidden;
+    outline:none;
+    font-size: 19px;
+}
+
+a{
+    color:black;
+    text-shadow: blue 0.0em 0.0em 0.2em
+}
+a:hover {
+    color:black;
+    text-shadow: blue 0.0em 0.0em 0.2em
+}
+a:visited{
+    color:black;
+    text-shadow: blue 0.0em 0.0em 0.2em
+}
+a:active{
+    color:black;
+    text-shadow: blue 0.0em 0.0em 0.2em
+}
