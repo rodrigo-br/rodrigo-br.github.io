@@ -14,13 +14,12 @@ header > div{
 }
 
 .nome{
-    background-color: white;
     font-weight: bold;
     color:purple;
 }
 
 .linguas{
-    color:#c3c3c3;
+    color:#545454;
     font-size:13px;
     font-weight: bold;
     text-align: left;
@@ -33,6 +32,12 @@ header > div{
 body{
     background: #f3e7e7;
     text-align: center;
+}
+
+.niveis{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
 }
 
 a{
