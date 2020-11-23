@@ -1,5 +1,6 @@
 header{
     border-width: 1px 3px 5px 25px;
+    border-color: #1f2684;
     border-style: solid;
     display: flex;
     flex-wrap: nowrap;
@@ -15,11 +16,11 @@ header > div{
 
 .nome{
     font-weight: bold;
-    color:#434bc4;
+    color:#1f2684;
 }
 
 .linguas{
-    color:#545454;
+    color:#1f2684;
     font-size:13px;
     font-weight: bold;
     text-align: left;
@@ -33,7 +34,7 @@ body{
     text-align: center;
 }
 .vidaloca{
-    background: linear-gradient(315deg, #c86f7e, #6fc8b9);
+    background: linear-gradient(315deg, #ffccff, #ccffcc);
     background-size: 400% 400%;
     -webkit-animation: vidaloca 10s ease infinite;
 }
@@ -64,7 +65,7 @@ section{
     max-width: 80%;
     transition: 0.5s;
     border-style: solid;
-    border-color: #c86f7e;
+    border-color: hsl(236, 62%, 32%);
     border-radius: 3px;
     border-top-left-radius: 12px;
     border-bottom-left-radius: 9px;
