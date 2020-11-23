@@ -46,9 +46,11 @@ body{
 }
 
 .niveis{
+    color:#1f2684;
     display:flex;
     flex-wrap:wrap;
     justify-content: center;
+    font-weight: 500;
 }
 
 section{
@@ -65,7 +67,7 @@ section{
     max-width: 80%;
     transition: 0.5s;
     border-style: solid;
-    border-color: hsl(236, 62%, 32%);
+    border-color: #2f336b;
     border-radius: 3px;
     border-top-left-radius: 12px;
     border-bottom-left-radius: 9px;
