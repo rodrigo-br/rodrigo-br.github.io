@@ -1,12 +1,24 @@
 header{
     border-width: 1px 3px 5px 25px;
-    border-color: rgb(0, 0, 0, 0.8);
+    border-color: rgb(0, 0, 0, 0.7);
     border-style: solid;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
     padding: 0px 5px 0px 0px; /*Usando o justify-content:space-around não usar o padding*/
+}
+
+.headersubindo{
+    -webkit-animation: catapimba 3s ease;
+
+}
+@-webkit-keyframes catapimba{
+    0% {
+        opacity:0;
+        background:black;
+        padding: 10% 0% 20% 0%;
+    }
 }
 
 header > div{
@@ -59,15 +71,27 @@ section{
     flex-wrap: wrap;
 }
 
-.fotos{
+.fotos {
     margin-top: 50px;
+    opacity: 1;
+    -webkit-animation: opaco 14s infinite;
 }
+
+@-webkit-keyframes opaco{    
+    40%{
+        opacity:1;
+    }
+    50%{
+        opacity: 0.2;
+    }
+}
+
 
 .fotos img{
     max-width: 80%;
     transition: 0.5s;
     border-style: solid;
-    border-color:rgb(0, 0, 0, 0.8);
+    border-color:rgb(0, 0, 0, 0.9);
     border-radius: 3px;
     border-top-left-radius: 12px;
     border-bottom-left-radius: 9px;
@@ -174,4 +198,125 @@ foot p{
     margin-top: 200px;
     text-align:left;
     font-weight: 900;
+}
+
+.fotoum img{
+    -webkit-animation: esquerda 1.3s ease-in;
+}
+
+@-webkit-keyframes esquerda{
+    0% {
+        border-radius:50%;
+        width: 0%
+    }
+    50% {
+        border-radius:30%;
+        width: 50%
+    }
+
+    60% {
+        border-radius: 20%;
+        width: 75%;
+    }
+
+    90%{
+        width: 100%;
+    }
+}   
+
+.fotodois img{
+    -webkit-animation: esquerda 1.7s linear;
+}
+
+@-webkit-keyframes esquerda{
+    0% {
+        border-radius:50%;
+        width: 0%
+    }
+    50% {
+        border-radius:30%;
+        width: 50%
+    }
+
+    60% {
+        border-radius: 20%;
+        width: 75%;
+    }
+    
+    90%{
+        width: 100%;
+    }
+}   
+
+.fototres img{
+    -webkit-animation: esquerda 2s ease-in;
+}
+
+@-webkit-keyframes esquerda{
+    0% {
+        border-radius:50%;
+        width: 0%
+    }
+    50% {
+        border-radius:30%;
+        width: 50%
+    }
+
+    60% {
+        border-radius: 20%;
+        width: 75%;
+    }
+    
+    90%{
+        width: 100%;
+    }
+}
+
+
+.fotoquatro img{
+    -webkit-animation: esquerda 2.3s ease-in;
+}
+
+@-webkit-keyframes esquerda{
+    0% {
+        border-radius:50%;
+        width: 0%
+    }
+    50% {
+        border-radius:30%;
+        width: 50%
+    }
+
+    60% {
+        border-radius: 20%;
+        width: 75%;
+    }
+    
+    90%{
+        width: 100%;
+    }
+}
+
+.fotocinco img{
+    -webkit-animation: esquerda 0.1s ease-in;
+}
+
+@-webkit-keyframes esquerda{
+    0% {
+        border-radius:50%;
+        width: 0%
+    }
+    50% {
+        border-radius:30%;
+        width: 50%
+    }
+
+    60% {
+        border-radius: 20%;
+        width: 75%;
+    }
+    
+    90%{
+        width: 100%;
+    }
 }
