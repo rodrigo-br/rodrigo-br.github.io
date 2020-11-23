@@ -15,7 +15,7 @@ header > div{
 
 .nome{
     font-weight: bold;
-    color:purple;
+    color:#434bc4;
 }
 
 .linguas{
@@ -30,8 +30,18 @@ header > div{
 }
 
 body{
-    background: #f3e7e7;
     text-align: center;
+}
+.vidaloca{
+    background: linear-gradient(315deg, #c86f7e, #6fc8b9);
+    background-size: 400% 400%;
+    -webkit-animation: vidaloca 10s ease infinite;
+}
+
+@-webkit-keyframes vidaloca {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 
 .niveis{
@@ -54,7 +64,7 @@ section{
     max-width: 80%;
     transition: 0.5s;
     border-style: solid;
-    border-color: #BC3F55;
+    border-color: #c86f7e;
     border-radius: 3px;
     border-top-left-radius: 12px;
     border-bottom-left-radius: 9px;
@@ -80,35 +90,35 @@ section{
    }
 
 .fotos > .fotoum img:hover{
-    -webkit-transform: scale(1.3) rotate(3deg) !important;
+    -webkit-transform: scale(1.3) rotate(1deg) !important;
     border-radius: 2px;
     border-top-left-radius: 12px;
     border-bottom-left-radius: 9px;
 }
 
 .fotos > .fotodois img:hover{
-    -webkit-transform: scale(1.3) rotate(-3deg) !important;
+    -webkit-transform: scale(1.3) rotate(-1deg) !important;
     border-radius: 2px;
     border-top-left-radius: 12px;
     border-bottom-left-radius: 9px;
 }
 
 .fotos > .fototres img:hover{
-    -webkit-transform: scale(1.3) rotate(3deg) !important;
+    -webkit-transform: scale(1.3) rotate(1deg) !important;
     border-radius: 2px;
     border-top-left-radius: 12px;
     border-bottom-left-radius: 9px;
 }
 
 .fotos > .fotoquatro img:hover{
-    -webkit-transform: scale(1.3) rotate(-3deg) !important;
+    -webkit-transform: scale(1.3) rotate(-1deg) !important;
     border-radius: 2px;
     border-top-left-radius: 12px;
     border-bottom-left-radius: 9px;
 }
 
 .fotos > .fotocinco img:hover{
-    -webkit-transform: scale(1.3) rotate(3deg) !important;
+    -webkit-transform: scale(1.3) rotate(1deg) !important;
     border-radius: 2px;
     border-top-left-radius: 12px;
     border-bottom-left-radius: 9px;

@@ -1,3 +1,7 @@
+:root {
+    background: linear-gradient(to bottom left,#ecd9d9,#ffffff,#ecd9d9);
+  }
+
 body{
     color:#414141;
     font-family: 'Lucida Sans';
