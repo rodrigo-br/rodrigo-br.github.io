@@ -3,12 +3,16 @@ html {
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
-    background-image: url(forms.jpg);
+    background-image: url(img/forms.jpg);
     font-family: 'Waiting for the Sunrise', cursive;
 }
 
 script {
     display: none;
+}
+
+.container{
+    text-align: center;
 }
 
 
