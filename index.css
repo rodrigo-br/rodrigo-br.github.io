@@ -46,7 +46,7 @@ body{
     text-align: center;
 }
 .vidaloca{
-    background: linear-gradient(315deg, #ffccff, #ccffcc);
+    background: linear-gradient(-45deg, #ff6fff, #95fffa);
     background-size: 400% 400%;
     -webkit-animation: vidaloca 14s ease infinite;
 }
