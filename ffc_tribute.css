@@ -1,0 +1,114 @@
+#main {
+    background-color:#cccccc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-align: center;
+}
+
+#title {
+    font-size: 45px;
+}
+
+hr {
+    margin-bottom: 100px;
+}
+
+#img-div {
+    background-color: #141823;
+    padding-bottom:5px;
+}
+
+#img-caption {
+    background-color:#595959;
+    color:#cccccc;
+    width: auto;
+    height:30px;
+    padding-top:10px;
+    margin-top: -3px;
+}
+
+
+
+#img{
+    max-width: 100%;
+    height: auto;
+}
+
+#article {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#article span {
+    float: right;
+    font-style: italic;
+}
+
+h3 {
+    text-shadow: gray 1px 1px 2px;
+}
+
+#article ul{
+    border: hidden;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px gray;
+    align-content: center;
+    line-height: 140%;
+}
+
+#article ul li{
+    padding-top: 30px;
+    background-color: rgba(177, 177, 177, 0.1);
+    border-bottom: 1px solid rgb(163, 163, 163);
+    border-radius: 5px;
+}
+
+#article em{
+    font-family: serif;
+    font-size: 25px;
+}
+
+#foot {
+    background-color:#595959;
+    text-align: left;
+    color:#cccccc;
+}
+
+a{
+    color:white;
+}
+
+  a:hover {
+    color: blue;
+  }
+
+
+
+@media (max-width: 1200px){
+    #article {
+        width: 80%;
+    }
+}
+
+@media (max-width: 900px){
+    #article {
+        width: 88%;
+    }
+}
+
+@media (max-width: 640px){
+    #img-caption {
+        height:50px;      
+    }
+
+    #article {
+        width: 95%;
+    }
+}
+
+@media (max-width: 345px){  /* To cover some slow width devices as iPhone 5, Galaxy Fold and others*/
+    #img-caption {
+        height:60px;
+    }
+}
