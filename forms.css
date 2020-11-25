@@ -1,0 +1,15 @@
+html {
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-image: url(forms.jpg);
+    font-family: 'Waiting for the Sunrise', cursive;
+}
+
+script {
+    display: none;
+}
+
+
+
