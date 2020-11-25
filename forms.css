@@ -17,16 +17,16 @@ script {
     display:flex;
     justify-content: center;
     flex-direction: column;
-    animation-name: aparecendo;  
-    animation-duration: 6s;
+    animation-name: formaparecendo;  
+    animation-duration: 50s;
     animation-timing-function: linear;
 }
 
-@keyframes aparecendo{
+@keyframes formaparecendo{
     0%{
         opacity:0;
     }
-    50%{
+    99%{
         opacity:0 ;
     }
         
@@ -44,5 +44,29 @@ hr{
     width: 70vw;
 }
 
+.caveira img{
+    position: absolute;
+    top:5%;
+    left:5%;
+    width: 40%;
+    height: auto;
+    animation-name: caveira;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+}
 
+@keyframes caveira{
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    95%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
 
