@@ -6,9 +6,40 @@ html {
     background-repeat: no-repeat;
     background-image: url(img/forms.jpg);
     font-family: 'Waiting for the Sunrise', cursive;
+    line-height: 40px;
+    font-size: 20px;
+    margin:auto;
+    margin-bottom: 100px;
+    animation-name:sanguinho;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
 }
 
-.container{
+@keyframes sanguinho{
+    0%{
+        background-size: 400% 400%;
+        background: linear-gradient(-45deg, red, black);
+        background-position:0% 50%;             
+    }
+    50%{
+        background-position:100% 50%;
+        background: linear-gradient(-45deg, red, black);
+        background-size: 400% 400%;
+    }
+    90%{
+        background-position:0% 50%;
+        background: linear-gradient(-45deg, red, black);
+        background-size: 400% 400%;
+    }
+    100%{
+        background-position:center;
+        background-size: cover;
+        background-image:url(img/forms.jpg);
+    }
+}
+
+.container{    
     text-align: center;
     display:flex;
     justify-content: center;
@@ -17,13 +48,16 @@ html {
     animation-duration: 7s;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
+    box-shadow: 3px 3px 20px rgb(40, 83, 226);
+    border-radius: 13px;
+    margin:0 30px 0 30px;
 }
 
 @keyframes formaparecendo{
     0%{
         opacity:0;
     }
-    98%{
+    80%{
         opacity:0 ;
     }
         
@@ -37,10 +71,18 @@ h1{
     text-shadow: 10px 10px 20px red, 10px 10px 30px blue;
 }
 
-hr{
-    width: 70vw;
+h2{
+    text-shadow: 10px 10px 20px red;
 }
 
+h3{
+    text-decoration: underline red;
+}
+
+hr{
+    width: 70vw;
+    box-shadow: 0 0 10px red;
+}
 
 .caveira img{
     max-width: 100%;
@@ -59,7 +101,7 @@ hr{
     10%{
         opacity: 1;
     }
-    95%{
+    80%{
         max-height: 100%;
         opacity: 1;
     }
@@ -69,3 +111,40 @@ hr{
         pointer: none;
     }
 }
+.flex1 input{
+    background:none;
+    border:none;
+    box-shadow: 0 0 10px red;
+    color:white;
+}
+::placeholder{
+    color:red;
+}
+
+textarea{
+    background:none;
+    color:red;
+    box-shadow: 0 0 10px red;
+}
+
+button{
+    background:blue;
+    color:white;
+    box-shadow: 0 0 0 red;
+    border:1px solid white;
+}
+
+button:hover{
+    animation-name: buttonhover;
+    animation-duration:5s;
+}
+
+@keyframes buttonhover{
+    100%{
+        transform:scale(10);
+        box-shadow: 0 0 20px red;
+        border:2px solid white;
+    }
+}
+
+
