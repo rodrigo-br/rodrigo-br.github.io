@@ -8,29 +8,26 @@ html {
     font-family: 'Waiting for the Sunrise', cursive;
 }
 
-script {
-    display: none;
-}
-
 .container{
     text-align: center;
     display:flex;
     justify-content: center;
     flex-direction: column;
     animation-name: formaparecendo;  
-    animation-duration: 30s;
+    animation-duration: 7s;
     animation-timing-function: linear;
+    animation-fill-mode: forwards;
 }
 
 @keyframes formaparecendo{
     0%{
         opacity:0;
     }
-    99%{
+    98%{
         opacity:0 ;
     }
         
-    }
+
     100%{
         opacity: 1;
     }
@@ -44,17 +41,16 @@ hr{
     width: 70vw;
 }
 
+
 .caveira img{
-    position: absolute;
-    top:5%;
-    left:5%;
-    width: 40%;
+    max-width: 100%;
     height: auto;
     animation-name: caveira;
-    animation-duration: 30s;
+    animation-duration: 5s;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
 }
+
 
 @keyframes caveira{
     0%{
@@ -64,87 +60,12 @@ hr{
         opacity: 1;
     }
     95%{
+        max-height: 100%;
         opacity: 1;
     }
     100%{
         opacity: 0;
-    }
-}
-
-.fala1{
-    position: absolute;
-    top:6%;
-    left:15%;
-    width: 100%;
-    height: auto;
-    animation-name: fala1;
-    animation-duration: 10s;
-    animation-fill-mode: forwards;
-}
-
-@keyframes fala1 {
-    0%{
-        opacity: 0;
-    }
-    20%{
-        opacity: 0;
-    }
-    95%{
-        opacity: 1;
-    }
-    100%{
-        opacity: 0;
-    }
-}
-
-.fala2{
-    position: absolute;
-    top:6%;
-    left:15%;
-    width: 100%;
-    height: auto;
-    animation-name: fala2;
-    animation-duration: 20s;
-    animation-fill-mode: forwards;
-}
-
-@keyframes fala2 {
-    0%{
-        opacity: 0;
-    }
-    60%{
-        opacity: 0;
-    }
-    99%{
-        opacity: 1;
-    }
-    100%{
-        opacity: 0;
-    }
-}
-
-.fala3{
-    position: absolute;
-    top:6%;
-    left:15%;
-    width: 100%;
-    height: auto;
-    animation-name: fala3;
-    animation-duration: 25s;
-    animation-fill-mode: forwards;
-}
-
-@keyframes fala3 {
-    0%{
-        opacity: 0;
-    }
-    80%{
-        opacity: 0;
-    }
-    95%{
-        opacity: 1;
-    }
-    100%{
-        opacity: 0;
+        max-height: 0;
+        pointer: none;
     }
 }
