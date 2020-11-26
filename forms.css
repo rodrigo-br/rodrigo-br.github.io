@@ -18,7 +18,7 @@ script {
     justify-content: center;
     flex-direction: column;
     animation-name: formaparecendo;  
-    animation-duration: 50s;
+    animation-duration: 30s;
     animation-timing-function: linear;
 }
 
@@ -53,6 +53,7 @@ hr{
     animation-name: caveira;
     animation-duration: 30s;
     animation-timing-function: linear;
+    animation-fill-mode: forwards;
 }
 
 @keyframes caveira{
@@ -74,31 +75,76 @@ hr{
     position: absolute;
     top:6%;
     left:15%;
-    width: 10%;
+    width: 100%;
     height: auto;
     animation-name: fala1;
-    animation-duration: 30s;
-    animation-timing-function: linear;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fala1 {
+    0%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 0;
+    }
+    95%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
 }
 
 .fala2{
     position: absolute;
     top:6%;
     left:15%;
-    width: 10%;
+    width: 100%;
     height: auto;
     animation-name: fala2;
-    animation-duration: 30s;
-    animation-timing-function: linear;
+    animation-duration: 20s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fala2 {
+    0%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 0;
+    }
+    99%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
 }
 
 .fala3{
     position: absolute;
     top:6%;
     left:15%;
-    width: 10%;
+    width: 100%;
     height: auto;
     animation-name: fala3;
-    animation-duration: 30s;
-    animation-timing-function: linear;
+    animation-duration: 25s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fala3 {
+    0%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 0;
+    }
+    95%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
 }
