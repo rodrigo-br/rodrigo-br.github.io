@@ -70,3 +70,35 @@ hr{
     }
 }
 
+.fala1{
+    position: absolute;
+    top:6%;
+    left:15%;
+    width: 10%;
+    height: auto;
+    animation-name: fala1;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+}
+
+.fala2{
+    position: absolute;
+    top:6%;
+    left:15%;
+    width: 10%;
+    height: auto;
+    animation-name: fala2;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+}
+
+.fala3{
+    position: absolute;
+    top:6%;
+    left:15%;
+    width: 10%;
+    height: auto;
+    animation-name: fala3;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+}
