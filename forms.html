@@ -18,34 +18,37 @@
         <div class="caveira">
             <img src="img/caveira.png">
         </div>
+        <p id="description">
+            Olá, Humano. Que tal responder essa breve pesquisa?
+        </p>
     </div>
     <div class="container">
-    <h1 style="font-family: 'Eater', cursive;">Pesquisa de conhecimento do destino</h1>
+    <h1 id="tittle" style="font-family: 'Eater', cursive;">Pesquisa de conhecimento do destino</h1>
     <h3 style=" font-family: 'Rock Salt', cursive;">Por favor, tire um minutinho para responder nosso <strike style="color:gray; font-size: 15px;"><em>contrato com o diabo</em></strike> fomrulário.</h3>
     
         <br>
         <div class="flex1">
-        <form action="enviado.html" id="form-text">
+        <form action="enviado.html" id="survey-form">
            
             <label for="name">       
                 Nome :
             </label>
-                <input type="text" id="name" name="name" placeholder="Nome da alma" required>      
+                <input type="text" id="name-label" name="name" placeholder="Nome da alma" required>      
         <br>
             <label for="lastname">            
                 Sobrenome : 
             </label>
-                <input type="text" id="lastname" name="lastname" placeholder="Sobrenome para a lápide" required>           
+                <input type="text" id="lastname-label" name="lastname" placeholder="Sobrenome para a lápide" required>           
             <br>
             <label for="email">            
                E-mail : 
             </label>
-               <input type="email" id="email" name="email" placeholder="E-mail do amaldiçoado" required>         
+               <input type="email" id="email-label" name="email" placeholder="E-mail do amaldiçoado" required>         
         <br>
-            <label for="tele">            
+            <label for="number">            
                 Telefone : 
             </label>
-                <input type="tel" id="tele" name="teleee" placeholder="Telefone do maldito" required>            
+                <input type="number" id="number-label" name="teleee" min="8" max="19" placeholder="Telefone do maldito" required>            
         <br>
     </div>
     <br>
@@ -53,15 +56,15 @@
     <div class="flex2">
             <h2>Escolha até 4 dos itens abaixo, quais fariam parte da sua jornada para alcançar seus objetivos de <strike style="color:gray; font-family: 'Rock Salt', cursive; font-size: 15px;"><em>morte</em></strike> vida?</h2>
             <label for="check1">
-                <input type="checkbox" name="check1" id="check1">Especializar-se em uma área científica
+                <input type="checkbox" name="check1" id="check1" value="pudim">Especializar-se em uma área científica
             </label> 
             <br>
             <label for="check2"> 
-                 <input type="checkbox" name="check2" id="check2">Mudar o mundo
+                 <input type="checkbox" name="check2" id="check2" value="pudim">Mudar o mundo
             </label>
         <br>
             <label for="check3">
-                <input type="checkbox" name="check3" id="check3">Buscar uma vida de puro prazer carnal
+                <input type="checkbox" name="check3" id="check3" value="pudim">Buscar uma vida de puro prazer carnal
             </label>
             <br>
             <label style="color:gray; font-family: 'Rock Salt', cursive" for="check4">
@@ -93,13 +96,21 @@
         <br>
         </div>
         <hr>
-        <br>
         <div class="flex4">
+            <label for dropdown>Gostou deste formulário??<br>
+        <select name="dropdown" id="dropdown">
+            <option value="Sim">Sim</option>
+            <option value="Com certeza">Com certeza</option>
+            <option value="Claro">Claro</option>
+        </select>
+        <br>
+    </label>
+        <br>
         <label for ="mensagem_id">Deixe aqui sua despedida :<br>
         </label>
         <textarea rows ="5" cols ="50" maxlength ="100" type="text" onfocus="this.value=''" value="">Esta página é apenas uma brincadeira e não tem como intenção ofender ninguém. Espero que tenha se divertido : )  Se possível, deixe seu feedback (técnico ou não)</textarea>
         <br>
-        <button>Obrigado Enviar!</button>
+        <button id="submit">Obrigado Enviar!</button>
         <!--
         <button <onclick="myFunction()">Enviar o contr....</button>
         <script>
