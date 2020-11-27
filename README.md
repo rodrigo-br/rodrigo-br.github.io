@@ -10,5 +10,4 @@ Index | portfólio | currículo
 html e css | html e css | html e css
 flexbox | flexbox e grid | pdf
 javascript | javascript e exemplos python | X
-X | APP Celular agenda personalizada | X
-X | Calculadora LazyCapybara | X
+Python | Calculadora LazyCapybara | X
