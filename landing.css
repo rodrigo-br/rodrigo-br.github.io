@@ -1,0 +1,61 @@
+body{
+    background:linear-gradient(to right,#000004,#0078F0);
+    font-size:20px;
+    margin: 0;
+}
+
+.nav-bar{
+    width: 100%;
+    background:linear-gradient(to left,#000004,#000004,#0078F0);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-img{
+    max-width: 65px;
+    max-height: 65px;
+}
+
+#menu li{
+    display: inline-flex;
+}
+
+#menu li a{
+    background:linear-gradient(to right,black, black,black,blue, black, black,blue, black, black,black);
+    padding: 10px 20px;
+    background-size:400% 400%;
+    border-radius:60% 3px 3px 45%;
+    transition:1s;
+}
+
+#menu li a:hover{
+    color:rgb(179, 193, 255);
+    animation: vidaloca 1.4s ease 2;
+    transform:scale(1.1);
+}
+#menu li a:active{
+    color:rgb(179, 193, 255);
+}
+
+#menu li a:link{
+    color:rgb(179, 193, 255);
+}
+
+#menu li a:visited{  
+    color:rgb(179, 193, 255);
+}
+
+@keyframes vidaloca{
+    0%{
+        background-position: 0% 50%;
+    }
+
+    100%{
+        background-position: 100% 50%;
+    }
+}
+
+@media (max-width: 500){
+
+}
