@@ -2,6 +2,14 @@ body{
     background:linear-gradient(to right,#000004,#0078F0);
     font-size:20px;
     margin: 0;
+    font-family:Verdana, Helvetica, sans-serif;
+}
+
+header{
+    margin-top:-10px;
+    box-shadow: 6px 6px 10px black;
+    position: fixed;
+    width: 100%;
 }
 
 .nav-bar{
@@ -19,20 +27,24 @@ body{
 
 #menu li{
     display: inline-flex;
+    text-transform: uppercase;
+    font-weight: 500;
 }
 
 #menu li a{
-    background:linear-gradient(to right,black, black,black,blue, black, black,blue, black, black,black);
+    background:linear-gradient(to right,black,black, black,black,blue, black, black,blue, black, black,black);
     padding: 10px 20px;
     background-size:400% 400%;
     border-radius:60% 3px 3px 45%;
     transition:1s;
+    text-decoration: none;
 }
 
 #menu li a:hover{
     color:rgb(179, 193, 255);
     animation: vidaloca 1.4s ease 2;
     transform:scale(1.1);
+    text-decoration: underline;
 }
 #menu li a:active{
     color:rgb(179, 193, 255);
@@ -55,7 +67,29 @@ body{
         background-position: 100% 50%;
     }
 }
+@media (max-width: 1400px){
+    .nav-bar{
+        background:linear-gradient(to left,#000004,#000004,#000004,#0078F0);
+    }
+}
+@media (max-width: 1200px){
+    .nav-bar{
+        background:linear-gradient(to left,#000004,#000004,#000004,#000004,#0078F0);
+    }
+}
 
-@media (max-width: 500){
+hr{
+    width: 100%;
+    box-shadow: 6px 5px 8px white;
+}
 
+.container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+
+.container section{
+    margin: 150px 0 150px 0;
 }
