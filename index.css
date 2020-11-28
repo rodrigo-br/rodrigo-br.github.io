@@ -115,6 +115,9 @@ section{
 .fotos > .fotocinco{
     flex:24.9%;
    }
+   .fotos > .fotoseis{
+    flex:24.9%;
+   }
 
 .fotos > .fotoum img:hover{
     -webkit-transform: scale(1.3) rotate(1deg) !important;
@@ -151,6 +154,13 @@ section{
     border-bottom-left-radius: 9px;
 }
 
+.fotos > .fotoseis img:hover{
+    -webkit-transform: scale(1.2) rotate(-1deg) !important;
+    border-radius: 2px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 9px;
+}
+
 a{
     text-decoration: none;
 }
@@ -171,6 +181,9 @@ a{
     .fotos > .fotocinco{
         flex:33.3%;
     }
+    .fotos > .fotoseis{
+        flex:33.3%;
+}
 }
 
 @media (max-width: 900px){
@@ -187,6 +200,9 @@ a{
         flex:34%;
     }
     .fotos > .fotocinco{
+        flex:34%;
+    }
+    .fotos > .fotoseis{
         flex:34%;
     }
 }
@@ -297,7 +313,7 @@ foot p{
     }
 }
 
-.fotocinco img{
+.fotoseis img{
     -webkit-animation: esquerda 0.1s ease-in;
 }
 
