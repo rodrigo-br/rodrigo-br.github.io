@@ -1,0 +1,117 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    height: 100%;
+    font-size:25px;
+    font-family: monospace;
+}
+
+.navbar{
+    background:#55577c;
+    color:#fff9aa;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index:2;
+}
+
+a{  
+    text-decoration-line: none;
+}
+
+.navbar ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar ul li{
+    text-decoration: none;
+    transition: 0.3s;
+    padding: 20px 10px 11px 10px;
+    display:inline-flex;
+}
+
+.navbar ul li:hover{
+    color:#fff9aa;
+    max-width: fit-content;
+    background: #7c7a55;
+}
+
+.navbar a:active{
+    color:#fff9aa;
+}
+
+.navbar a:any-link{
+    color:#fff9aa;
+}
+
+
+#welcome-section{
+    padding-top: 60px;
+    background: #7c7a55;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color:#fff9aa;
+    text-shadow: 2px 2px 6px #55577c;
+}
+
+#welcome-section h1{
+    position: absolute;
+    bottom: 50%;
+    left: 36%;
+}
+
+#projects{
+    padding-top: 60px;
+    background: yellow;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#curriculum{
+    padding-top: 60px;
+    background: blue;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#contact{
+    padding-top: 60px;
+    background: red;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#foot{
+    bottom:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 900px){
+
+}
