@@ -69,7 +69,7 @@ a{
 
 #projects{
     padding-top: 60px;
-    background: yellow;
+    background: #6c7c55;
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -78,7 +78,7 @@ a{
 
 #curriculum{
     padding-top: 60px;
-    background: blue;
+    background:#7c7055;
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -87,17 +87,32 @@ a{
 
 #contact{
     padding-top: 60px;
-    background: red;
-    height: 100%;
+    background: #7c5559;
+    height: 90%;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
+    text-align: center;
+    font-size: 35px;
 }
 
-#foot{
-    bottom:0;
+#contactspan{
+    position: relative;
+    top: 20%;
 }
 
+#profile-link a{
+    font-size:120px;
+    text-shadow: 0px 0px 10px white;
+    transition: 0.6s;
+}
+
+#profile-link a:hover{
+    transform:scale(1.1);
+    text-shadow: 2px 2px 30px rgb(0, 204, 255);
+    box-shadow: 0px 0px 10px rgb(0, 204, 255);
+    border-radius:10px;
+}
 
 
 
