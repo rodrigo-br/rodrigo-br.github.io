@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="landing.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing page</title>
 </head>
@@ -11,42 +14,102 @@
         <nav class="nav-bar">
             <img src="img/clef2.png" id="header-img" alt="imagem do cabeçalho">
             <ul id="menu">  
-                <li><a href="#oque">O que há de novo?</a></li>
+                <li><a href="#">Início</a></li>
                 <li><a href="#especificacoes">Especificações</a></li>
-                <li><a href="#comprar">Comprar</a></li>
-                <li><a href="#demo">Demonstração</a></li>
+                <li><a href="#demo">Fotos e vídeos</a></li>
             </ul>
         </nav>
     </header>
 
     <div class="container">
-        <hr>
+        
         <section id="oque">
-
+            
+            <h1>Guitarras Nico 'The dog'. O que há de mais moderno nos palcos.</h1>
+            <hr>
         </section>
-<hr>
+
         <section id="especificacoes">
+            <p>Novas modificações, bem características como : escala com escalopado mais profundo para o mínimo contato dos dedos com a madeira da escala, trastes Dulop 6000 super jumbo para facilitar os bends e a técnica de tapping, nut em bronze para um som mais brilhante e maior sustain, chave de três posições e captadores Noiseless single-coil, fazem dessa Stratocaster a guitarra perfeita para os apreciadores e amantes do "Shredding".</p>
+            <h1>ESPECIFICACOES</h1>
+            <ul>
+                <li>Corpo em alder</li>
+                <li>Braço em maple modern "C" shape</li>
+                <li>Escala com raio de 9.5" (64.8cm)</li>
+                <li>21 Trastes super jumbo</li>
+                <li>Nut em metal com largura de 1.650" (42 mm)</li>
+                <li>Tarraxas estilo vintage com "F" estampado</li>
+                <li>Ponte american vintage tremolo</li>
+                <li>Ferragem cromada</li>
+                <li>Conjunto de captadores Fender Noiseless Hot</li>
+                <li>Chave de 3 posições</li>
+                <li>Controles de MV/T/T</li>
+                <li>Escudo sanduiche (3ply)</li>
+                <li>Encordamento Fender USA 3250L (.009-.042)</li>
+                <li>Acompanha case Deluxe (tweed)</li>
 
+            </ul>
+            <hr>
         </section>
-<hr>
+
         <section id="comprar">
+           <div class="cadastro"> 
+            <h1>CADASTRE-SE PARA COMPRAR</h1>
+            <p>Promoção inédita para clientes cadastrados!<br>Confira agora, assine nossa newsletters e<br><strong><u>NÃO PERCA MAIS NENHUMA PROMOÇÃO!</u></strong></p>
             <form action="https://www.freecodecamp.com/email-submit" id="form">
-                <label for="email">
+                <ul>
+                <li><label for="nome">Nome
+                    <input type="text" name="name" id="name" placeholder="Insira o nome">
+                </label></li>
+                <li><label for="telefone">Telefone
+                    <input type="tel" name="telefone" id="telefone" maxlength="11" placeholder="(DDD) Telefone">
+                </label></li>
+                <li><label for="email">Email
                     <input type="email" name="email" id="email" placeholder="Insira o e-mail" required>
-                </label>
+                </label></li>
                 
                 <label for="submit">
+                    <span style="font-size:10px"><input type="checkbox" required>aceito os Termos de Uso</span>
                     <input type="submit" name="submit" id="submit">
                 </label>
             </form>
-        </section>
-<hr>
-        <section id="demo">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/9Jcr8n43lww" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/gq8hAwuyXfE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </section>
+        </ul>
     </div>
+            <div class="preco">
+                <h3>Fender SIG Series Stratocaster</h3>
+                <p>de <strike style="color:gray">R$16.990,00</strike> por <b style="text-shadow: 2px 3px 10px rgb(0, 194, 0);">R$14.700,09</b><br>ou em 12x de <b style="text-shadow: 2px 3px 10px rgb(0, 194, 0);">R$1.225,00</b> <span style="color:green"> sem juros</span></p>
+                <p><mark style="color:red">Produto indisponível no momento.</mark><br>Faça o cadastro que te avisamos por e-mail quando estiver disponível novamente.</p>
+            </div>
+            <hr>
+        </section>
+
+        <section id="demo">
+            
+            <div class="ggtopo">
+            <h3>Design exclusivo<br>O maior conforto garantido. Essa luva veste como uma guitarra.</h3>
+            <h4>Cheque o relato de nosso guitarrista:</h4>
+            <p style="font-family: 'Sansita Swashed', cursive;">&emsp; <em>'Fodona'</em><sub>&emsp;-Rodrigo A.</sub></p>
+            </div>
+            <div class="git1"><img src="img/guitarra.jpg" alt=""></div>
+            <div class="git2"><img src="img/euguitarra.jpg" alt=""></div>
+            <div class="v1"><iframe width="400px" height="300px" src="https://www.youtube.com/embed/9Jcr8n43lww" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div class="v2"><iframe width="400px" height="300px" src="https://www.youtube.com/embed/gq8hAwuyXfE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <hr style="width: 98%;">
+            
+    <section id="rodape">
+            <p>
+                <a style="color:green" href="https://bit.ly/3lUGEe7" class="fab fa-whatsapp-square" target="_blank">
+
+                </a>
+                <a style="color:#cc2d3f;" href="mailto:rodrigoab123@gmail.com?" class="fab fa-google-plus-square" target="_blank">
+
+                </a>
+                <a style="color:black" href="https://github.com/rodrigo-br" class="fab fa-github-square" target="_blank">
+                
+                </a>
+            </p>
+    </section>
+</div>
 <hr>
-<br>
 </body>
 </html>
