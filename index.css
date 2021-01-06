@@ -10,7 +10,7 @@ header{
 }
 
 .headersubindo{
-    -webkit-animation: catapimba 3s ease;
+    -webkit-animation: catapimba 2s ease;
 
 }
 @-webkit-keyframes catapimba{
@@ -48,7 +48,7 @@ body{
 .vidaloca{
     background: linear-gradient(-45deg, #ff6fff, #95fffa);
     background-size: 400% 400%;
-    -webkit-animation: vidaloca 14s ease infinite;
+    -webkit-animation: vidaloca 10s ease infinite;
 }
 
 @-webkit-keyframes vidaloca {
@@ -74,7 +74,7 @@ section{
 .fotos {
     margin-top: 50px;
     opacity: 1;
-    -webkit-animation: opaco 14s ;
+    -webkit-animation: opaco 5s ;
 }
 
 @-webkit-keyframes opaco{    
@@ -82,7 +82,7 @@ section{
         opacity:1;
     }
     50%{
-        opacity: 0.2;
+        opacity: 0.5;
     }
 }
 
@@ -115,7 +115,11 @@ section{
 .fotos > .fotocinco{
     flex:24.9%;
    }
-   .fotos > .fotoseis{
+.fotos > .fotoseis{
+    flex:24.9%;
+   }
+
+.fotos > .fotosete{
     flex:24.9%;
    }
 
@@ -161,6 +165,13 @@ section{
     border-bottom-left-radius: 9px;
 }
 
+.fotos > .fotosete img:hover{
+    -webkit-transform: scale(1.2) rotate(1deg) !important;
+    border-radius: 2px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 9px;
+}
+
 a{
     text-decoration: none;
 }
@@ -183,6 +194,9 @@ a{
     }
     .fotos > .fotoseis{
         flex:33.3%;
+    }
+    .fotos > .fotoseis{
+    flex:33.3%;
 }
 }
 
@@ -203,6 +217,9 @@ a{
         flex:34%;
     }
     .fotos > .fotoseis{
+        flex:34%;
+    }
+    .fotos > .fotosete{
         flex:34%;
     }
 }
@@ -314,6 +331,30 @@ foot p{
 }
 
 .fotoseis img{
+    -webkit-animation: esquerda 0.1s ease-in;
+}
+
+@-webkit-keyframes esquerda{
+    0% {
+        border-radius:50%;
+        width: 0%
+    }
+    50% {
+        border-radius:30%;
+        width: 50%
+    }
+
+    60% {
+        border-radius: 20%;
+        width: 75%;
+    }
+    
+    90%{
+        width: 100%;
+    }
+}
+
+.fotosete img{
     -webkit-animation: esquerda 0.1s ease-in;
 }
 
