@@ -15,14 +15,14 @@ body{
     font-weight: 600;
 }
 
-img{
+/*img{
     float:right;
     width: 150px;
     max-width: 40%;
     border-radius: 4px;
     box-shadow: 1px 1px 1px 0 #545454;
 }
-
+*/
 button{
     background: transparent;
     border:none;
